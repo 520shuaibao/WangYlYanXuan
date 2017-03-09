@@ -1,0 +1,148 @@
+body {
+  background: #F5F5F5;
+}
+#banner .title {
+  margin: auto;
+  width: 1090px;
+  font-size: 12px;
+  line-height: 52px;
+  color: #999;
+}
+#banner .title a {
+  color: #333;
+}
+#banner .title i {
+  padding: 0 5px;
+}
+#banner .imgbox {
+  margin: auto;
+  width: 1090px;
+  height: 320px;
+  background-image: url("../img/jujia_bg.jpg");
+  text-align: center;
+  line-height: 320px;
+}
+#banner .imgbox h1 {
+  display: inline-block;
+  width: 281px;
+  height: 107px;
+  background-image: url("../img/banner_over.png");
+  font-size: 25px;
+  color: #000;
+  line-height: 107px;
+}
+#shop_body {
+  margin: 0 auto;
+  width: 1090px;
+  background: #fff;
+}
+#shop_body #head {
+  margin: 0 30px;
+  padding: 30px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dddddd;
+  font-size: 14px;
+}
+#shop_body #head span {
+  color: #999;
+}
+#shop_body #head a {
+  margin: 0 15px;
+}
+#shop_body #head > div a:nth-of-type(1) {
+  color: #b4a078;
+}
+#shop_body #head > div a:hover {
+  color: #b4a078;
+}
+#shop_body .shop_items {
+  margin-left: 40px;
+  width: 1020px;
+}
+#shop_body .shop_items .header {
+  padding: 35px 0;
+  text-align: center;
+}
+#shop_body .shop_items .header p:nth-child(1) {
+  font-size: 24px;
+  font-weight: 600;
+}
+#shop_body .shop_items .header p:nth-child(1) img {
+  margin-right: 7px;
+  vertical-align: middle;
+}
+#shop_body .shop_items .header p:nth-child(1) span {
+  display: inline-block;
+  height: 44px;
+  vertical-align: middle;
+}
+#shop_body .shop_items .header p:nth-child(2) {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+#shop_body .shop_items .content {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#shop_body .shop_items .content > div {
+  width: 245px;
+  margin-right: 10px;
+}
+#shop_body .shop_items .content > div > div:nth-child(1) {
+  position: relative;
+  width: 245px;
+  height: 245px;
+  background: #F4F4F4;
+  overflow: hidden;
+}
+#shop_body .shop_items .content > div > div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  transition: transform .7s;
+  cursor: pointer;
+}
+#shop_body .shop_items .content > div > div:nth-child(1) img:hover {
+  transform: scale(1.05);
+}
+#shop_body .shop_items .content > div > div:nth-child(1) span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 0 11px;
+  background-color: #b4a078;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+#shop_body .shop_items .content > div > div:nth-child(2) {
+  text-align: center;
+  font-size: 14px;
+}
+#shop_body .shop_items .content > div > div:nth-child(2) > p:nth-child(1) {
+  margin-top: 25px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#shop_body .shop_items .content > div > div:nth-child(2) > p:nth-child(1):hover {
+  color: #B4A078;
+}
+#shop_body .shop_items .content > div > div:nth-child(2) > p:nth-child(2) {
+  display: inline-block;
+  width: 130px;
+  border-bottom: 1px solid #dddddd;
+  color: #D6352D;
+  line-height: 40px;
+}
+#shop_body .shop_items .content > div > div:nth-child(2) > p:nth-child(3) {
+  margin: 20px 0 50px;
+  color: #9F9F9F;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

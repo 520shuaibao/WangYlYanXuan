@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clearFloat {
+  zoom: 1;
+}
+.clearFloat:after {
+  display: block;
+  content: "";
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Microsoft YaHei UI";
+  color: #333;
+}
